@@ -14,6 +14,7 @@
 		F9252870288953E200712E35 /* CoffeeMastersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F925286F288953E200712E35 /* CoffeeMastersTests.swift */; };
 		F925287A288953E200712E35 /* CoffeeMastersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9252879288953E200712E35 /* CoffeeMastersUITests.swift */; };
 		F925287C288953E200712E35 /* CoffeeMastersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F925287B288953E200712E35 /* CoffeeMastersUITestsLaunchTests.swift */; };
+		F92528892889A56E00712E35 /* Offer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92528882889A56E00712E35 /* Offer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		F9252875288953E200712E35 /* CoffeeMastersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoffeeMastersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9252879288953E200712E35 /* CoffeeMastersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMastersUITests.swift; sourceTree = "<group>"; };
 		F925287B288953E200712E35 /* CoffeeMastersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMastersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F92528882889A56E00712E35 /* Offer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				F925285E288953E000712E35 /* CoffeeMastersApp.swift */,
+				F92528882889A56E00712E35 /* Offer.swift */,
 				F9252860288953E000712E35 /* ContentView.swift */,
 				F9252862288953E200712E35 /* Assets.xcassets */,
 				F9252864288953E200712E35 /* Preview Content */,
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F92528892889A56E00712E35 /* Offer.swift in Sources */,
 				F9252861288953E000712E35 /* ContentView.swift in Sources */,
 				F925285F288953E000712E35 /* CoffeeMastersApp.swift in Sources */,
 			);
