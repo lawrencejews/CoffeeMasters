@@ -9,7 +9,29 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Offer(title: "Offer 1", description: "Description")
+        TabView{
+            MenuPage()
+                .tabItem{
+                    Image(systemName: "cup.and.saucer")
+                    Text("Menu")
+            }
+            OffersPage()
+                .tabItem{
+                    Image(systemName: "tag")
+                    Text("Offers")
+        }
+            CartPage()
+                .tabItem{
+                    Image(systemName: "cart")
+                    Text("Order")
+            }
+            infoPage()
+                .tabItem{
+                    Image(systemName: "info")
+                    Text("Info")
+            
+            }
+        }
     }
 }
 
