@@ -21,7 +21,7 @@ struct ProductItems: View {
                     Text(product.name)
                         .font(.title3)
                         .bold()
-                    Text("$ \(product.price)")
+                    Text("$ \(product.price, specifier: "%.2f")")
                         .font(.caption)
                     
                 }.padding(8)

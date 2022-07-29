@@ -14,6 +14,7 @@ struct CartPage: View {
     
     // Bring the singleton that was injected in the application
     @EnvironmentObject var cartManager: CartManager
+//    @Environment var 
     
     var body: some View {
         NavigationView {
@@ -25,7 +26,7 @@ struct CartPage: View {
                             Section("ITEMS") {
                                 ForEach(cartManager.cart, id:\.0.id) {
                                     item in
-                                    OrderItem()
+                                    OrderItem(item: item)
                                 }
                             }.listRowBackground(Color("Background"))
                                                 
@@ -44,10 +45,10 @@ struct CartPage: View {
                             Section() {
                                 HStack {
                                     Spacer()
-//                                    Text("Total")
-//                                    Spacer()
-//                                    Text("$ \(cartManager.total(), specifier: "%.2f")")
-//                                        .bold()
+                                    Text("Total")
+                                    Spacer()
+                                    Text("$ \(cartManager.total(), specifier: "%.2f")")
+                                        .bold()
                                     Spacer()
                                 }
                             }.listRowBackground(Color.clear)
